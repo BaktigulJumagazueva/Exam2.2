@@ -82,12 +82,12 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", age=" + age +
-                ", phoneNumber='" + phoneNumber + '\'' +
+                "id=" + id +"\n"+
+                " firstName='" + firstName + '\'' +"\n"+
+                " lastName='" + lastName + '\'' +"\n"+
+                "email='" + email + '\'' +"\n"+
+                " age=" + age +"\n"+
+                " phoneNumber='" + phoneNumber + '\'' +"\n"+
                 '}';
     }
 
