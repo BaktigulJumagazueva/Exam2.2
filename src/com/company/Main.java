@@ -41,13 +41,17 @@ public class Main {
         Person[] people2 ={ person12,person13,person14,person16,person15};
         Person[] people3 ={person17,person18,person19,person20,person21,person22,person23,person24,person25,person26,person27,person28,person29,person30};
 
+
         House house = new CrazyHouse (5476,"robmwh","Kirova 123",2016,75000, Arrays.toString(people));
         House house1 = new FashTeamHouse (9090,"robmwh ","Kirova 34",2018,88000,Arrays.toString(people1));
         House house2 = new StarHouse (1076,"robmwh","Aitmatov 156",2017,90100,Arrays.toString(people2));
         House house3 = new VipHouse (7564,"robmwh","Valenko 76",2020,100000,Arrays.toString(people3));
         System.out.println(house);
+
 house.city();
 house.electricity();
+
+
         System.out.println("Уйдо 6 киши жашайт");
         System.out.println("-----------------------------------------");
         System.out.println(house1);
@@ -64,6 +68,9 @@ house.electricity();
         house3.city();
         house3.electricity();
         System.out.println("Уйдо 14 киши жашайт");
+        System.out.println("===========================================================");
+        person.work();
+        person.tameTable();
         }
 
 

@@ -92,22 +92,21 @@ public class Person {
     }
 
     public void work(){
+        Scanner scanner = new Scanner(System.in);
+        firstName= scanner.nextLine();
         System.out.println(firstName+" Кайсы жумушта иштейт");
 
     }
     public void tameTable(){
-        System.out.println(firstName+"бир жумалык графиги");
         Scanner scanner = new Scanner(System.in);
         firstName= scanner.nextLine();
-        switch (firstName) {
-            case "дуйшомбу" -> System.out.println("иштейт");
-            case "шейшемби" -> System.out.println("  иштейт");
-            case "шаршемби" -> System.out.println(" иштейт");
-            case "бейшемби" -> System.out.println("иштейт ");
-            case "жума" -> System.out.println(" иштейт ");
-            case "ишемби" -> System.out.println("иштебейт");
-            case "жекшемби" -> System.out.println("иштебейт ");
-        }
+        System.out.println(firstName+"дын  бир жумалык графиги дуйшомбу (\"иштейт\");\n" +
+                "            шейшемби(\" иштейт\");\n" +
+                "            шаршемби(\" иштейт\");\n" +
+                "            бейшемби(\" иштейт \");\n" +
+                "            жума    (\" иштейт \");\n" +
+                "            ишемби  (\" иштебейт\");\n" +
+                "            жекшемби(\" иштебейт \");");
 
     }
 }
