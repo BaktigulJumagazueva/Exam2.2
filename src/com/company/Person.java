@@ -94,19 +94,28 @@ public class Person {
     public void work(){
         Scanner scanner = new Scanner(System.in);
         firstName= scanner.nextLine();
-        System.out.println(firstName+" Кайсы жумушта иштейт");
+        System.out.println(firstName+" Кайсы жумушта иштейт. Жумалык графиги");
 
     }
     public void tameTable(){
         Scanner scanner = new Scanner(System.in);
-        firstName= scanner.nextLine();
-        System.out.println(firstName+"дын  бир жумалык графиги дуйшомбу (\"иштейт\");\n" +
-                "            шейшемби(\" иштейт\");\n" +
-                "            шаршемби(\" иштейт\");\n" +
-                "            бейшемби(\" иштейт \");\n" +
-                "            жума    (\" иштейт \");\n" +
-                "            ишемби  (\" иштебейт\");\n" +
-                "            жекшемби(\" иштебейт \");");
+        System.out.println(" введите число дня: ");
+        int a= scanner.nextInt();
+       if (a==1){
+           System.out.println("иштейт");
+       }else if (a==2) {
+           System.out.println("иштейт");
+       }else if (a==3) {
+           System.out.println("иштейт ");
+       }else if (a==4) {
+           System.out.println("иштейт ");
+       }else if (a==5) {
+           System.out.println("иштейт ");
+       }else if (a==6) {
+           System.out.println("эс алуу кун ");
+       }else if (a==7) {
+           System.out.println("эс алуу кун ");
 
+        }
     }
 }

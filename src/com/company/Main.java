@@ -46,7 +46,7 @@ public class Main {
         House house1 = new FashTeamHouse (9090,"robmwh ","Kirova 34",2018,88000,Arrays.toString(people1));
         House house2 = new StarHouse (1076,"robmwh","Aitmatov 156",2017,90100,Arrays.toString(people2));
         House house3 = new VipHouse (7564,"robmwh","Valenko 76",2020,100000,Arrays.toString(people3));
-        System.out.println(house);
+
 
 house.city();
 house.electricity();
